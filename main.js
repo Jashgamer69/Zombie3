@@ -295,7 +295,7 @@ bot.action('adone', async ctx => {
     const chatMember2 = await ctx.telegram.getChatMember(chatId2, userId);
 
     if ((chatMember1.status === 'member' || chatMember1.status === 'administrator') && (chatMember2.status === 'member' || chatMember2.status === 'administrator')) {
-ctx.editMessageText('*👋Hi '+ctx.from.first_name+' Welcome to '+admin[0].cur+' Airdrop\n\n🔽 Choose an option from the menu below 👇*',{parse_mode:'markdown',reply_markup:{keyboard:[['👤 My Account','💼 Wallet'],['👥 Referrals','🏧 Withdrawal']],resize_keyboard:true}})
+ctx.editMessageText('*op ankiet o*',{parse_mode:'markdown',reply_markup:{keyboard:[['👤 My Account','💼 Wallet'],['👥 Referrals','🏧 Withdrawal']],resize_keyboard:true}})
 	}else{
 ctx.answerCbQuery('Join First', {show_alert:true})
 }
