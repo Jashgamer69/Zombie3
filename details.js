@@ -5,6 +5,6 @@ module.exports = {
     web: 'https://ZombiePepe.site', 
     yut: 'https://youtube.com/@ZombiePepeNews', 
     twtr: 'https://twitter.com/ZombiePepeNews', 
-    achannel: '@ZombiePepe_News', 
-    agroup: '@ZombiePepe_News'
+    achannel: 'https://t.me/airdrop_Presents', 
+    agroup: 'https://t.me/OfficialAirdropPro'
 }
